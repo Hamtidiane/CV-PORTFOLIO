@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #1e1c1c;
 }
 
 /* Container pour limiter la largeur et centrer */
@@ -24,7 +24,7 @@ body {
 /* Header */
 header {
     background: #333;
-    color: #fff;
+    color: beige;
     padding: 20px 0;
 }
 
@@ -43,7 +43,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color:beige;
     text-decoration: none;
 }
 

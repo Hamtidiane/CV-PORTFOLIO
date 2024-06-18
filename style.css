@@ -55,6 +55,9 @@ nav ul{
     width: 100%;
     color: beige;
 }
+nav li {
+    color:beige;
+}
 
 main{
     width: 65%;
@@ -188,7 +191,7 @@ justify-content: center;
     justify-content: space-between;
 }
 
-.EXPERIENCES1, .FORMATION{
+#EXPERIENCES1, FORMATION{
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -196,26 +199,26 @@ justify-content: center;
     width: 100%;
 }
 
-.EXPERIENCES1 ul, .FORMATION ul{
+#EXPERIENCES1 ul, #FORMATION ul{
     width: 60%;
 }
 
-.EXPERIENCES1 ul li div p, .FORMATION ul li div p{
+#EXPERIENCES1 ul li div p, #FORMATION ul li div p{
     line-height: 1.5;
 }
 
-.EXPERIENCES1 ul li, .FORMATION ul li{
+#EXPERIENCES1 ul li, #FORMATION ul li{
     padding-bottom: 5px;
     
 }
-.EXPERIENCES1 ul li > div, .FORMATION ul li > div{
+#EXPERIENCES1 ul li > div, #FORMATION ul li > div{
     line-height: .8;
     display:inline-block;
     margin: 10px 30px 10px 30px;
     text-align: left;
 }
 
-.EXPERIENCES1 h3{
+#EXPERIENCES1 h3{
     position: relative;
     top: 9%;
 
@@ -226,7 +229,7 @@ justify-content: center;
 
 
 
-@media only screen and (max-width: 1328px){
+@media only screen and (max-width: 1000px){/*1328*/
 
     body > div{
         flex-direction: column;
