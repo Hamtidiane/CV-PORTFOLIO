@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: beige;
+}
+
+body > div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+ }
+header{
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    background-color: #1e1c1c;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+}  
+#container-principal{
+    padding-top: 10vh;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo img{
+    width: 250px;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+nav{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    width: 100%;
+    color: beige;
+}
+
+main{
+    width: 65%;
+   min-height:100%;
+   /*Centrer une boite*/
+   margin:0 auto;
+  
+}
+
+
+aside{
+    width: 35%;
+    height: 100%;
+    background-color: #1e1c1c;
+    display:flex;
+    align-items: start;
+}
+#container1{
+display: flex;
+flex-direction: column;
+}
+
+.titre h1{  
+ text-align: center;
+ padding-left: 114px;
+ white-space : nowrap;
+}
+.padding-top{
+    margin-top: 30px;
+}
+
+.Ligne, .ball{
+    background-color: white;
+}
+.ligne{
+    position: relative;
+    margin-left: 30px;
+    width: 1px;
+    background-color: white;
+}
+.ball{
+    position: absolute;
+    top: 10%;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    background-color: aqua;
+}
+.point{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 100%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact h3{
+    display: flex;
+    justify-content: center;
+}
+
+.contact div{
+    display: flex;
+    float: inline-start;
+    padding: 17px;
+    place-items: center;
+
+
+
+}
+.hobbie {
+    display: flex;
+   flex-direction: column;
+   
+    
+}
+.hobbie h3{
+    display: flex;
+    justify-content: center;
+    
+}   
+
+.hobbie div{
+    display: flex;
+    float: inline-start;
+    padding: 17px;
+    place-items: center;
+}
+
+.langue{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.langue h3{
+    display: flex;
+    justify-content: center;
+}
+
+.langue div{
+
+    display: flex;
+    float: inline-start;
+    padding: 17px;
+    place-items: center;
+
+}
+
+.exper span{
+    display: flex;
+justify-content: center;
+}
+#container2{
+    width: 100%;
+    padding: 50px;
+    
+
+}
+.intermain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.EXPERIENCES1, .FORMATION{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.EXPERIENCES1 ul, .FORMATION ul{
+    width: 60%;
+}
+
+.EXPERIENCES1 ul li div p, .FORMATION ul li div p{
+    line-height: 1.5;
+}
+
+.EXPERIENCES1 ul li, .FORMATION ul li{
+    padding-bottom: 5px;
+    
+}
+.EXPERIENCES1 ul li > div, .FORMATION ul li > div{
+    line-height: .8;
+    display:inline-block;
+    margin: 10px 30px 10px 30px;
+    text-align: left;
+}
+
+.EXPERIENCES1 h3{
+    position: relative;
+    top: 9%;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1328px){
+
+    body > div{
+        flex-direction: column;
+        }
+
+        main{
+            width: 100%;
+          
+        }
+        
+        
+        aside{
+            width: 100%;
+        }
+}
