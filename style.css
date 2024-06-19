@@ -55,7 +55,7 @@ nav ul{
     width: 100%;
     color: beige;
 }
-nav li {
+nav a {
     color:beige;
 }
 
@@ -191,7 +191,7 @@ justify-content: center;
     justify-content: space-between;
 }
 
-#EXPERIENCES1, FORMATION{
+#EXPERIENCES1, #FORMATION{
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -199,19 +199,19 @@ justify-content: center;
     width: 100%;
 }
 
-#EXPERIENCES1 ul, #FORMATION ul{
+#EXPERIENCES1 ul, #FORMATION ul, #LANGAGE ul, #FRAMEWORK ul{
     width: 60%;
 }
 
-#EXPERIENCES1 ul li div p, #FORMATION ul li div p{
+#EXPERIENCES1 ul li div p, #FORMATION ul li div p,#FRAMEWORK ul li p,#LANGAGE ul li p{
     line-height: 1.5;
 }
 
-#EXPERIENCES1 ul li, #FORMATION ul li{
+#EXPERIENCES1 ul li, #FORMATION ul li,#LANGAGE ul li,#FRAMEWORK ul li {
     padding-bottom: 5px;
     
 }
-#EXPERIENCES1 ul li > div, #FORMATION ul li > div{
+#EXPERIENCES1 ul li > div, #FORMATION ul li > div #LANGAGE ul li > div, #FRAMEWORK ul li > div{
     line-height: .8;
     display:inline-block;
     margin: 10px 30px 10px 30px;
@@ -222,6 +222,16 @@ justify-content: center;
     position: relative;
     top: 9%;
 
+}
+
+footer{
+    border-top: 1px solid white;
+ 
+    bottom: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 10vh;
+    background-color: #1e1c1c;
 }
 
 

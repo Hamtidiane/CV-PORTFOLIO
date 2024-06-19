@@ -23,7 +23,7 @@ body {
 
 /* Header */
 header {
-    background: #333;
+    background: #1e1c1c;
     color: beige;
     padding: 20px 0;
 }
@@ -60,11 +60,13 @@ header nav ul li a:hover {
 #about h2, #projects h2, #contact h2 {
     text-align: center;
     margin-bottom: 20px;
+    color:beige;
 }
 
 /* Projects Section */
 #projects {
     padding: 50px 0;
+    
 }
 
 #projects .project {
@@ -72,6 +74,7 @@ header nav ul li a:hover {
     padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
+    
 }
 
 #projects .project img {
@@ -121,7 +124,7 @@ header nav ul li a:hover {
 
 /* Footer */
 footer {
-    background: #333;
+    background: #1e1c1c;
     color: #fff;
     text-align: center;
     padding: 10px 0;
