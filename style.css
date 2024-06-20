@@ -232,15 +232,26 @@ justify-content: center;
 
 }
 #LANGAGE h3{
-    position: relative;
+    /*position: relative;
     left: -335px;
-    bottom: -16px;
+    bottom: -16px;*/
+    position: relative;
+    top: -11%;
 }
 #FRAMEWORK h3{
-    position: relative;
+    /*position: relative;
     left: -300px;
-    bottom: -16px;
+    bottom: -16px;*/
+    position: relative;
+    top: -17%;
 }
+ /*#FRAMEWORK div, #LANGAGE div {
+    
+        display: flex;
+        float: inline-start;
+        padding: 17px;
+        place-items: center;
+}*/
 
 footer{
     border-top: 1px solid white;
@@ -257,7 +268,7 @@ footer{
 
 
 
-@media only screen and (max-width: 1000px){/*1328*/
+@media only screen and (min-width: 1000px){/*1328*/
 
     body > div{
         flex-direction: column;
