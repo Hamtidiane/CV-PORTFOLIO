@@ -5,7 +5,7 @@
 }
 
 img{
-    max-width: 45%;
+    max-width: 100%;
 }
 
 
@@ -40,10 +40,15 @@ header ul{
     justify-content: space-around;
 }
 
+.photo{
+    display: flex;
+    justify-content: center
+}
+
 .photo img{
     width: 250px;
     border: 1px solid red;
-    border-radius: 100%;
+    border-radius: 50px 10px;
     padding: 20px;
 }
 
@@ -215,7 +220,7 @@ justify-content: center;
     
 }
 #EXPERIENCES1 ul li > div, #FORMATION ul li > div #LANGAGE ul li > div, #FRAMEWORK ul li > div{
-    line-height: .8;
+    line-height: 1.8;
     display:inline-block;
     margin: 10px 30px 10px 30px;
     text-align: left;
@@ -255,11 +260,11 @@ justify-content: center;
 }
 #FRAMEWORK{
     display: flex;
-    flex-direction: row;
+    
 }
 #LANGAGE{
     display: flex;
-    flex-direction: row;
+    
 }
 
 
