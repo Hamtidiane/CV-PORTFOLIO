@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 45%;
+}
+
 
 body{
 background-color: black;
@@ -206,15 +210,6 @@ justify-content: center;
     width: 100%;
   
 }
-
-#EXPERIENCES1 ul, #FORMATION ul, #LANGAGE ul, #FRAMEWORK ul{
-    width: 60%;
-}
-
-#EXPERIENCES1 ul li div p, #FORMATION ul li div p,#FRAMEWORK ul li p,#LANGAGE ul li p{
-    line-height: 1.5;
-}
-
 #EXPERIENCES1 ul li, #FORMATION ul li,#LANGAGE ul li,#FRAMEWORK ul li {
     padding-bottom: 5px;
     
@@ -236,22 +231,37 @@ justify-content: center;
     left: -335px;
     bottom: -16px;*/
     position: relative;
-    top: -11%;
+    top: 3%;
 }
 #FRAMEWORK h3{
     /*position: relative;
     left: -300px;
     bottom: -16px;*/
     position: relative;
-    top: -17%;
+    top: 2%;
 }
- /*#FRAMEWORK div, #LANGAGE div {
+ #FRAMEWORK div, #LANGAGE div{
     
         display: flex;
         float: inline-start;
         padding: 17px;
         place-items: center;
-}*/
+
+}
+
+#FRAMEWORK figure, #LANGAGE figure{
+    display:flex ;
+    flex-direction: column-reverse;
+}
+#FRAMEWORK{
+    display: flex;
+    flex-direction: row;
+}
+#LANGAGE{
+    display: flex;
+    flex-direction: row;
+}
+
 
 footer{
     border-top: 1px solid white;
@@ -268,7 +278,7 @@ footer{
 
 
 
-@media only screen and (min-width: 1000px){/*1328*/
+@media only screen and (max-width: 1000px){/*1328*/
 
     body > div{
         flex-direction: column;
