@@ -206,7 +206,10 @@ justify-content: center;
     padding-left: 30px;
     padding-top: 30px;
     width: 100%;
+    
 }
+
+
 #LANGAGE, #FRAMEWORK{
     display: flex;
     justify-content: space-between;
@@ -219,7 +222,7 @@ justify-content: center;
     padding-bottom: 5px;
     
 }
-#EXPERIENCES1 ul li > div, #FORMATION ul li > div #LANGAGE ul li > div, #FRAMEWORK ul li > div{
+#EXPERIENCES1 ul li > div, #FORMATION ul li > div{
     line-height: 1.8;
     display:inline-block;
     margin: 10px 30px 10px 30px;
@@ -236,14 +239,14 @@ justify-content: center;
     left: -335px;
     bottom: -16px;*/
     position: relative;
-    top: 3%;
+    top: -18px;
 }
 #FRAMEWORK h3{
     /*position: relative;
     left: -300px;
     bottom: -16px;*/
     position: relative;
-    top: 2%;
+    top: -11%;
 }
  #FRAMEWORK div, #LANGAGE div{
     
